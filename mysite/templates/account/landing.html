@@ -1,0 +1,111 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block header %}
+  <link rel="stylesheet" href="{% static 'landing.css' %}">
+  <title>Usman Musa</title>
+{% endblock header %}
+
+{% comment %}
+<!-- {% block top %}
+  <div class="mini" id="mini">
+    <div class="mini_column">
+      <h1>Search Usman website</h1>
+      <form action="#" class="search" id="search">
+        <input type="search" name="" placeholder="Search here">
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+{% endblock top %} -->
+{% endcomment %}
+
+{% block main %}
+  <div class="mini">
+    <div class="mini_column">
+      <h1>Personal IT domain site</h1>
+      <p>Looking forward to IT and software development sector, to work, change and innovate creative digital system together with IT ally</p>
+    </div>
+  </div>
+
+  <div class="box">
+    <h1>Hi 👋 I'm Usman!<h1>
+    <div class="box_in">
+      <img src="/static/media/me_2.jpg" alt="">
+      <p onclick="setTimeout(sdk_func_timeout, 1000)">Nascent project <a onclick="sdk_func()" class="peace">S D K</a></p>
+    </div>
+  </div>
+
+  <div class="three_col">
+    <div>
+      <p>Making <b>S D K</b> flexible and friendly to IT community, also exploring into <a href="https://github.com/usmanmusa1920/quantum" target="_blank" class="peace">quantum</a> with qiskit.</p>
+    </div>
+  </div>
+
+  <div class="me">
+    <img src="/static/media/back.jpg" alt="">
+    <div>
+      <p>Importing module of impossible into a script, might mess up the syntax</p>
+    </div>
+  </div>
+
+  <div class="three_col">
+    <div>
+      <h3>Security</h3>
+      <img src="/static/media/security.jpg" alt="">
+      <p>Avoid using same password for all your online accounts. Create strong passwords using password manager, enable MFA & security questions if available. Remember, you are the target, while your device is the medium.</p>
+    </div>
+
+    <div>
+      <h3>Origin</h3>
+      <img src="/static/media/origin.jpg" alt="">
+      <p>Discourage yourself from keeping sensitive information away from online, such include allowing your browser to save your password, remember what goes online it stays online and it can be generated using <strong>OSINT</strong> (open source intelligent) techniques to get advantage of it.</p>
+    </div>
+  </div>
+
+  <div class="me">
+    <img src="/static/media/circuit.png" alt="">
+    <div>
+      <p>Quantum circuit of 2 qubits, 2 classical bits</p>
+    </div>
+  </div>
+
+  <div class="me">
+    <img src="/static/media/result.png" alt="">
+    <div>
+      <p>Our circuit result, after measuring it on real quantum device</p>
+    </div>
+  </div>
+
+  <div class="me">
+    <img src="/static/media/qubit.jpg" alt="">
+    <div>
+      <p>Qubit, basic unit of quantum information</p>
+    </div>
+  </div>
+
+  <div class="links">
+    <a href="https://github.com/usmanmusa1920">Github</a>
+    <a href="https://hub.docker.com/u/usmanmusa">Ducker</a>
+    <a href="https://medium.com/@usmanmusa1920">Medium</a>
+    <a href="https://drive.google.com/file/d/16ovVlyWCq5M-leEi3VYPS2pfVCQRW0HH/view?usp=sharing">Résumé</a>
+  </div>
+
+  <div class="glance">
+    <h1>Coders mirror</h1>
+    <img src="/static/media/laptop.jpeg" alt="">
+    <p>In technology things are not build from scratch, they are add on of the previous technology, to achieve and bring out new thing to simplify task, and erase the previous bugs, no matter what field it is, beign it software or web development, networking, system administration, data science, and other technological field.</p>
+  </div>
+
+  <div class="me">
+    <div>
+      <h1>@ <a>FUG</a></h1>
+      <br>
+      <p>some where in campus from <strong>UP</strong></p>
+      <br>
+      <small>You can't beat the hero, you can't be a hero</small>
+      <br>
+    </div>
+    <video src="/static/media/fug.mp4" controls></video>
+  </div>
+{% endblock main %}
