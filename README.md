@@ -1,4 +1,4 @@
-Follow below link for more docs <a href="https://render.com/docs/deploy-django">render docs</a>
+# Deployment using render platform
 
 Install poetry
 
@@ -50,3 +50,5 @@ poetry run python mysite/manage.py startapp blog
 ```
 
 From here, update your app for render using this link guide <a href="https://render.com/docs/deploy-djangopdate-your-app-for-render">render docs</a>
+- Poetry guide: https://python-poetry.org/docs/
+- For more render docs: https://render.com/docs/deploy-django
